@@ -13,10 +13,11 @@
     <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" data-mutate-approach="sync"></script>
   </head>
   <body>
-    <%= render "layouts/header" %>
 
+    <%= render "layouts/header" %>
+    <%= notice %><%= alert %>
       <%= yield %>
-  
+
     <%= render "layouts/footer" %>
   </body>
 </html>
